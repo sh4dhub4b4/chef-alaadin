@@ -1,0 +1,25 @@
+{
+  "name": "chef-alaadin",
+  "homepage": "https://sh4dhub4b4.github.io/chef-alaadin",
+  "description": "https://scrimba.com/learn-react-c0e/~0vs",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -dQB dist"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.27.3",
+    "@huggingface/inference": "2.8.1",
+    "react": "19.0.0-rc-8b08e99e-20240713",
+    "react-dom": "19.0.0-rc-8b08e99e-20240713",
+    "react-markdown": "^9.0.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "gh-pages": "^6.1.1"
+  }
+}
